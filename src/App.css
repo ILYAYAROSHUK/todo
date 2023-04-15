@@ -1,0 +1,29 @@
+.App {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 20px;
+}
+
+.App > div {
+  margin-right: 50px;
+}
+.btn-active {
+  background-color: darkslateblue;
+  color: white;
+}
+
+.task-done {
+  font-weight: bold;
+  color: rebeccapurple;
+}
+.input-error {
+  border: 2px solid red;
+  outline: none;
+}
+
+.todolists {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
